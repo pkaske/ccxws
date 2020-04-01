@@ -22,6 +22,7 @@ const poloniex = require("./exchanges/poloniex-client");
 const upbit = require("./exchanges/upbit-client");
 const zb = require("./exchanges/zb-client");
 const ftx = require("./exchanges/ftx-client");
+const bybit = require("./exchanges/bybit-client");
 
 module.exports = {
   // export all exchanges
@@ -52,6 +53,7 @@ module.exports = {
   upbit,
   zb,
   ftx,
+  bybit,
 
   // export all legacy exchange names
   Bibox: bibox,
